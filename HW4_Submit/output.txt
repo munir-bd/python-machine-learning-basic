@@ -1,0 +1,84 @@
+C:\Users\munir\Anaconda3\python.exe "E:/WorkStation/CourseStation/2017/Semester_2/Network Simulation_CSE840300/HW4/svm.py"
+                                              review  sentiment
+0  In 1974, the teenager Martha Moxley (Maggie Gr...          1
+1  OK... so... I really like Kris Kristofferson a...          0
+2  ***SPOILER*** Do not read this, if you think a...          0
+3  hi for all the people who have seen this wonde...          1
+4  I recently bought the DVD, forgetting just how...          0
+                                              review  sentiment
+0  in 1974 the teenager martha moxley maggie grac...          1
+1  ok so i really like kris kristofferson and his...          0
+2   spoiler do not read this if you think about w...          0
+3  hi for all the people who have seen this wonde...          1
+4  i recently bought the dvd forgetting just how ...          0
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\munir\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+                                              review  sentiment
+0  In 1974, the teenager Martha Moxley (Maggie Gr...          1
+1  OK... so... I really like Kris Kristofferson a...          0
+2  ***SPOILER*** Do not read this, if you think a...          0
+3  hi for all the people who have seen this wonde...          1
+4  I recently bought the DVD, forgetting just how...          0
+                                              review  sentiment
+0  In 1974, the teenager Martha Moxley (Maggie Gr...          1
+1  OK... so... I really like Kris Kristofferson a...          0
+2  ***SPOILER*** Do not read this, if you think a...          0
+3  hi for all the people who have seen this wonde...          1
+4  I recently bought the DVD, forgetting just how...          0
+                                              review  sentiment
+0  In 1974, the teenager Martha Moxley (Maggie Gr...          1
+1  OK... so... I really like Kris Kristofferson a...          0
+2  ***SPOILER*** Do not read this, if you think a...          0
+3  hi for all the people who have seen this wonde...          1
+4  I recently bought the DVD, forgetting just how...          0
+                                              review  sentiment
+0  In 1974, the teenager Martha Moxley (Maggie Gr...          1
+1  OK... so... I really like Kris Kristofferson a...          0
+2  ***SPOILER*** Do not read this, if you think a...          0
+3  hi for all the people who have seen this wonde...          1
+4  I recently bought the DVD, forgetting just how...          0
+                                              review  sentiment
+0  in 1974 the teenager martha moxley maggie grac...          1
+1  ok so i really like kris kristofferson and his...          0
+2   spoiler do not read this if you think about w...          0
+3  hi for all the people who have seen this wonde...          1
+4  i recently bought the dvd forgetting just how ...          0
+                                              review  sentiment
+0  in 1974 the teenager martha moxley maggie grac...          1
+1  ok so i really like kris kristofferson and his...          0
+2   spoiler do not read this if you think about w...          0
+3  hi for all the people who have seen this wonde...          1
+4  i recently bought the dvd forgetting just how ...          0
+                                              review  sentiment
+0  in 1974 the teenager martha moxley maggie grac...          1
+1  ok so i really like kris kristofferson and his...          0
+2   spoiler do not read this if you think about w...          0
+3  hi for all the people who have seen this wonde...          1
+4  i recently bought the dvd forgetting just how ...          0
+                                              review  sentiment
+0  in 1974 the teenager martha moxley maggie grac...          1
+1  ok so i really like kris kristofferson and his...          0
+2   spoiler do not read this if you think about w...          0
+3  hi for all the people who have seen this wonde...          1
+4  i recently bought the dvd forgetting just how ...          0
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\munir\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\munir\AppData\Roaming\nltk_data...
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\munir\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\munir\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[Parallel(n_jobs=-1)]: Done  42 tasks      | elapsed: 37.9min
+[Parallel(n_jobs=-1)]: Done  60 out of  60 | elapsed: 47.7min finished
+Best parameter set: {'clf__C': 100.0, 'vect__ngram_range': (1, 1), 'vect__norm': None, 'vect__stop_words': None, 'vect__tokenizer': <method 'split' of 'str' objects>, 'vect__use_idf': False} 
+CV Accuracy: 0.863
+Test Accuracy: 0.872
+
+Process finished with exit code 0
